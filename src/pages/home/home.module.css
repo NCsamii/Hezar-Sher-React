@@ -1,0 +1,38 @@
+section.section {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(-90deg, #ffffff 0%, #dfe9f3 100%);
+display: flex;
+}
+.hedaer{
+    position: absolute;
+
+}
+.imgLeft {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home {
+    display: grid;
+    display: flex;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    width: 45%;
+    /* text-align: center; */
+    margin: 0 10rem;
+
+}
+.contents {
+display: flex;
+align-items: center;
+}
+.contentImage {
+
+}
+.contentText{
+
+}
