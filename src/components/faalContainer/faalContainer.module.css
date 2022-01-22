@@ -1,3 +1,22 @@
 .faalContainer {
-    
+    width: 35%;
+    margin: 0 10%;
+    background: rgba(236, 210, 118, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+}
+.poemContainer {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+audio {
+    margin-top: 35px;
+}
+.interpretationcontainer {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 18px;
 }
