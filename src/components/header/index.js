@@ -16,10 +16,10 @@ function Header(){
 <Link to='/HafezFaal'>فال حافظ</Link>
 </li>
 <li>
-<Link to='/'>فال حافظ</Link>
+<Link to='/ganjineh'>گنجینه اشعار</Link>
 </li>
 <li>
-<Link to='/'>فال حافظ</Link>
+<Link to='/'>درباره ما</Link>
 </li>
 </ul>
 </div>

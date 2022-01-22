@@ -1,4 +1,5 @@
 export const routes = {
     home : '/', 
-    hafezFaal : '/hafezFaal'
+    hafezFaal : '/hafezFaal' , 
+    ganjineh : '/ganjineh'
 }
