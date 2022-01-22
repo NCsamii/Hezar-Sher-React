@@ -13,6 +13,7 @@ return (
                         <audio src={poemAudio} controls></audio>
 </div>
     <div className={cssStyle.interpretationcontainer}>
+        <h4>ای صاحب فال:</h4>
         {interpretation}
         </div>    
         <Buttons theme="gray" content="بازگشت به صفحه اصلی"  onclick={() => {navigate('/');

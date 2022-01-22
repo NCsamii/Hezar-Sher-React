@@ -1,0 +1,78 @@
+.main 
+{
+    background: url("../../assets/img/vector2-1.png") no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    display: flex;
+}
+.imgTop{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sherBox {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.leftBox {
+    left: 0;
+    position: relative;
+    width: 44%;
+    background: #F5D36F;
+    border: 1px solid #F4BB13;
+    padding: 83px;
+}
+.leftBox .shaerImage{
+    position: absolute;
+    top: 27px;
+    right: 52px;
+}
+.rightbox {
+    background: rgba(208, 227, 245, 0.5);
+    border: 1px solid #99C4EF;
+    box-sizing: border-box;
+    width: 47%;
+    right: 0;
+    z-index: -1;
+    padding: 42px;
+    padding-left: 69px;
+    line-height: 27px;
+    height: 50%;
+    bottom: 20%;
+}
+.refreshBtn {
+    bottom: 23px;
+    position: absolute;
+    right: 23px;
+    cursor: pointer;
+}
+@media (max-width:780px){
+    .leftBox {
+        width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    .sherBox {
+    padding: 20px;
+}
+.rightbox{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+.main {
+    height: 100%;
+}
+.shaerImage {
+    
+    top: -6px !important;
+    right: 0px !important;
+    width: 40px;
+
+}
+}

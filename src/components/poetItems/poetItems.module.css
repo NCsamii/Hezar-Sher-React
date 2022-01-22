@@ -12,7 +12,7 @@
     text-align: center;
     cursor: pointer;
 }
-p{
+.containerItem p{
     text-align: center;
 cursor: pointer;
 font-weight: bolder;
