@@ -1,5 +1,6 @@
 export const routes = {
     home : '/', 
     hafezFaal : '/hafezFaal' , 
-    ganjineh : '/ganjineh'
+    ganjineh : '/ganjineh' , 
+    poetsLInk : '/Poet'
 }

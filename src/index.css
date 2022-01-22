@@ -20,3 +20,50 @@ a {
   text-decoration: none;
   color: black;
 }
+.slick-slide img {
+  margin: auto;}
+.boxCarousel_container__1ux92 {
+  display: grid !important;
+  height: 260px !important;
+}
+
+
+.slick-list {
+
+  margin: 0 0 0 11% !important;}
+  .slick-prev:before, .slick-next:before{
+    font-size: 40px !important;
+    color: #6788BE !important;
+  }
+  .slick-next , .slick-prev{
+    top: 80% !important;
+
+  }
+  .slick-prev {
+    left: 1% !important;
+  }
+  .slick-next {
+    left: 5%;
+    right: auto !important;
+  }
+  .slick-slide>div {
+    margin: 0 10px;
+  }
+  @media (min-width:780px){
+    .slick-slide {
+      width: auto !important;
+    }
+    .slick-slide>div {
+      width: 187px !important;
+      margin: 0 42px !important;
+    }
+  }
+  @media (max-width:780px) {
+    .slick-next , .slick-prev {
+  bottom: -18%;
+  top: auto !important;
+}
+.slick-next{
+  left: 20% !important;
+}
+  }
