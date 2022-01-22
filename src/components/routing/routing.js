@@ -1,11 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../../pages/home";
-function Routing(props) {
-    const { paths , page} = props;
+import { routes } from "./routes";
+import HafezFaal from "../../pages/hafezFaal";
+function Routing() {
+    const { home , hafezFaal} = routes;
     return (
         <BrowserRouter>
      <Routes>
-                <Route exact path={paths} element={page} />
+                <Route exact path={home} element={<Home />} />
+                <Route exact path={hafezFaal} element={ <HafezFaal />} />
+
             </Routes>
         </BrowserRouter>
     );

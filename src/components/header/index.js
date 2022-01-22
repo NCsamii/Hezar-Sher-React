@@ -13,7 +13,7 @@ function Header(){
 <div className={cssStyle.navMenu}>
 <ul>
 <li>
-<Link to='/f'>فال حافظ</Link>
+<Link to='/HafezFaal'>فال حافظ</Link>
 </li>
 <li>
 <Link to='/'>فال حافظ</Link>

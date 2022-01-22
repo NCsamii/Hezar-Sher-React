@@ -36,7 +36,7 @@ function Home()
                         
                         <Buttons theme="yellow" content="فال حافظ"  onclick={() => {navigate('/');
                                 }}  />
-                                                     <Buttons theme="yellow" content="گنجینه اشعار"  onclick={() => {navigate('/');
+                                                     <Buttons theme="yellow" content="گنجینه اشعار"  onclick={() => {navigate('/HafezFaal');
                                 }}  />
                           </div>
         </div>
