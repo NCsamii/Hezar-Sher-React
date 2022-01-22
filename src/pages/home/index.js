@@ -34,9 +34,9 @@ function Home()
                             بزرگش تسکین داده اند.
                         </p>          
                         
-                        <Buttons theme="yellow" content="فال حافظ"  onclick={() => {navigate('/');
+                        <Buttons theme="yellow" content="فال حافظ"  onclick={() => {navigate('/hafezFaal');
                                 }}  />
-                                                     <Buttons theme="yellow" content="گنجینه اشعار"  onclick={() => {navigate('/HafezFaal');
+                                                     <Buttons theme="yellow" content="گنجینه اشعار"  onclick={() => {navigate('/');
                                 }}  />
                           </div>
         </div>

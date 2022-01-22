@@ -1,9 +1,9 @@
-import xssStyle from "./hafezFaal.module.css";
+import cssStyle from "./hafezFaal.module.css";
 function HafezFaal(){
 return (
-    <div>
-        hafezfaal
-    </div>
+    <section className={cssStyle.faalSection}>
+  
+    </section>
 )
 }
 export default HafezFaal;

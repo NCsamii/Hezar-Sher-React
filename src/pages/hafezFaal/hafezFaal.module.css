@@ -1,0 +1,7 @@
+.faalSection {
+    background: url("../../assets//img/backlarge.png") no-repeat;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background-size: cover;
+}
