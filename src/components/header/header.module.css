@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    margin: 10px 12px;
+    position: absolute;
+}
+.navLogo {
+
+}
+.navMenu{
+    align-self: center;
+}
+.navMenu ul{
+
+    display: flex;
+}
+.navMenu ul li {
+    margin: 0 57px;
+    color: black;
+    list-style: none;
+}
